@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', (event) => ){
 	console.log('DOM fully loaded and parsed');
 };
 
-const btTest = document.querySelector('#btTest');
+const button = document.querySelector('#btTest');
 
-		btTest.addEventListener('click', event => {
-		  btTest.style.backgroundColor = "red";
+		button.addEventListener('click', event => {
+		  button.style.backgroundColor = "red";
 		});
